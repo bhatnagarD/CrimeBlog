@@ -1,0 +1,95 @@
+{% extends 'header.html' %}
+<!-- {% load static %} -->
+
+{% block title %} Home {% endblock title %}
+
+{% block content %}
+<!--- header div end -->
+<div class="container panel-wrap">
+  <div class="row panel-wrapper justify-content-center">
+    <div class="col-md-4">
+      <div class="panel">
+        <div class="img"><img style="width: 260px; height: 260px;" src="{% static 'images/img-1.png' %}"/></div>
+        <div class="title">
+          <h1>The Zodiac Killer (1960s-1970s)</h1>
+        </div>
+        <div class="border"></div>
+        <div class="content">
+          <p>What Happened: The Zodiac Killer was a serial killer who operated in Northern California. He claimed responsibility for several murders and taunted law enforcement by sending cryptic letters and ciphers to newspapers.
+            <br>Outcome: Identity of the Zodiac Killer remains a mystery to this day.
+            </p>
+          <div class="button-link"><a href="#">readmore</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="panel">
+        <div class="img"><img style="width: 260px; height: 260px;" src="{% static 'images/img-2.webp' %}"/></div>
+        <div class="title">
+          <h1>The Ted Bundy Murders (1970s)
+          </h1>
+        </div>
+        <div class="border"></div>
+        <div class="content">
+          <p>What Happened: Ted Bundy was a charismatic serial killer who confessed to murdering over 30 women across multiple states in the 1970s. He used his charm to lure victims, often pretending to be injured or in need of help.
+            <br>Outcome: Bundy was eventually captured, convicted, and executed in 1989</p>
+          <div class="button-link"><a href="#">readmore</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="panel">
+        <div class="img"><img style="width: 260px; height: 260px;" src="{% static 'images/img-3.jpg' %}"/></div>
+        <div class="title">
+          <h1>The Black Dahlia Murder (1947)
+          </h1>
+        </div>
+        <div class="border"></div>
+        <div class="content">
+          <p>What Happened: Elizabeth Short, nicknamed "The Black Dahlia," was brutally murdered in Los Angeles. Her body was found mutilated and posed, sparking one of the most infamous unsolved murders in U.S. history.
+            <br>Outcome: Despite numerous suspects and theories, the case remains unsolved.
+            </p>
+          <div class="button-link"><a href="#">readmore</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--- panel wrap div end -->
+<div class="clearing"></div>
+<div class="page-wrap">
+  <div class="top-content">
+    <h1>Welcome to Crime Blog</h1>
+    <div class="top-border"></div>
+    <p>Delve into the dark and thrilling world of crime as we uncover real-life mysteries, explore infamous cases, and analyze criminal psychology. From chilling cold cases to notorious scandals, Crime Chronicles is your trusted source for all things crime. <br>Whether you're a true crime enthusiast, a mystery seeker, or simply curious about the underbelly of society, our blog offers riveting stories and insightful commentary that will keep you hooked.</p>
+    <div class="bottom-border"></div>
+    <!-- <div class="button-link"><a href="#">readmore</a></div> -->
+  </div>
+  <div class="page-wrapper">
+    <div style="width:100%;" class="primary-content marRight30 ">
+      <div class="toppanel">
+        <div class="container">
+          <h1>About Us 🗞️</h1>
+          <div class="border-bottom"></div><br>
+          <p style="color: beige;">At Crime Blog, we are more than just a blog—we are a platform dedicated to exploring the complex, often chilling world of crime and justice. From the darkest depths of human behavior to the tireless pursuit of truth and accountability, we aim to provide an in-depth, thoughtful exploration of the stories that shape societies and the systems that uphold justice.
+<br>
+            Crime has always fascinated humanity. It is a mirror reflecting the darkest corners of our collective psyche and the fragile balance of morality and law. At Crime Blog, we delve into this intricate world with an unwavering commitment to uncovering the truth behind the headlines.</p>
+            <p style="color: beige;"><b>🤝 Our Mission</b><br>
+              Our mission is twofold: to inform and to inspire.
+              We inform by presenting thoroughly researched accounts of crimes—both solved and unsolved. We aim to provide context, history, and insights that go beyond the surface, offering our readers a deeper understanding of the events and individuals involved.
+              <br>
+              We inspire by encouraging critical thought and discussion. Crime is not just about acts of violence or breaches of the law—it’s about people, systems, and societal structures. We challenge our readers to think critically about justice, morality, and the human condition.
+            </p>
+            <p style="color: beige;"><b>🔎 Who We Are</b> <br>
+            We are a team of passionate storytellers, researchers, and analysts. Our diverse backgrounds include journalism, criminology, psychology, and law, and we bring these perspectives together to craft narratives that are both compelling and educational. We believe in the power of storytelling to shed light on even the darkest of tales.</p>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+</div>
+<!--- page wrap div end -->
+
+{% endblock content %}
